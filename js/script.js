@@ -3,9 +3,7 @@ function obtenerDatos() {
     const nombreFormulario = document.getElementById('nombre').value;
     const correo = document.getElementById('correo').value;
 
-
     const nombrePrompt = prompt("¿Cuál es tu nombre?");
-
 
     alert(`Hola ${nombrePrompt || nombreFormulario}, se ha enviado tu información.`);
 
